@@ -1,0 +1,37 @@
+/*
+Theme Name: Fortitude
+Theme URI: https://github.com/jaib5053/
+Author: Vogue Themes
+Author URI: https://github.com/jaib5053/fortitude
+Description: fortitude is a multipurpose and elegant theme, perfect for sectors like Business, healthcare, construction, E-commerce, News, Blog, Fitness, Corporate, etc. You can Setup an amazing Looking responsive Website easily, within a few Minutes. fortitude is Very Easy to use and Can Easily Be managed even by a newbie. It is fast & light-weight and works with almost all popular WordPress plugins.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fortitude
+Tags: blog, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Fortitude is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* Basic Style */
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	overflow: hidden;
+	height: 1px;
+	width: 1px;
+	word-wrap: normal !important;
+}
